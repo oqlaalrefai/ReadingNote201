@@ -1,3 +1,66 @@
+How People Access the Web:
+  + Browsers: People access websites using software called a web browser.
+  + Web Servers: When you ask your browser for a web page, the request is sent across the Internet to a special computer known as a web server which hosts the website.
+  + Screen readers: Screen readers are programs that read out the contents of a computer screen to a user. They are commonly used by people with visual impairments.
+
+When you are looking at a website, it is most likely that your browser will be receiving HTML and CSS from the web server that hosts the site.
+Small websites are often written just using HTML and CSS.
+Larger websites — in particular those that are updated regularly and use a content management system (CMS), blogging tools, or e-commerce software — often make use of more complex 
+technologies on the web server, but these technologies are actually used to produce HTML and CSS that is then sent to the browser.
+Since the web was first created there have been several versions of HTML and CSSAt the time , HTML5 & CSS3 were still being developed.
+###How the Web Works:
+When you visit a website, the web server hosting that site could be anywhere in the world. In order for you to find the location of
+the web server, your browser will first connect to a Domain Name System (DNS) server.
+
+
+
+##HTML 
++ stands for HyperText Markup Language The HyperText part refers to the fact that HTML allows you to create links that allow visitors to move from one page to another
++ describes the structure of a web page
+The use of headings and subheadings in any document often reflects a hierarchy of information.
+The HTML code (in blue) is made up of characters that live inside angled
+###**HTML elements**
+The HTML code (in blue) is made up of characters that live inside angled brackets
+Each HTML element tells the browser something about the information that sits between its opening and closing tags.
+made up of two tags: an opening tag and a closing tag.
+<opening tag>info</closing tag>
+Tags act like containers. They tell you something about the information that lies between their opening and closing tags.
+<html> tag indicates that anything between it and a closing tag is HTML code </html> 
+<body> tag indicates that anything between it and the closing tag should be shown inside the main browser window.</body>
+<h1>main heading </h1>
+<h2>This is a Sub-Heading</h2>
+<p>is the paragraph</p>
+**The characters in the brackets indicate the tag's purpose.**
+#### Attributes 
+  + Tell Us More About El ements
+  + They appear on the opening tag of the element and are made up of two parts: a name and a value,separated by an equals sign.
+	Here an attribute called lang is used to indicate the language used in this element.
+	ex:	<p lang="en-us"> *lang is attribute name and "en-us" is Attribute Value*
+The attribute name indicates what kind of extra information it should written in lowercase
+The value is the information or setting for the attribute. It should be placed in double quotes.
+a few attributes (such as lang) can appear on any element.
++ <head>
+Before the <body> element you will often see a <head> element.
+This contains information about the page (rather than information that is shown within the main part of the browser
++ <title>
+The contents of the <title> element are either shown in the top of the browser, above where you usually type in the URL
+  + You will usually find a <title> element inside the <head> element.
+*** to create a webpage on pc :
+open notepad and type the code that you want then go to save as and type the name with html extension(file_name.html)
+### Content Management System
++ The tools provided in the administration sections of these sites usually allow you to edit parts of the page rather than
+	the entire page, which means you will rarely see the <html>, <head>, or <body> elements.
+The advantage of this approach is that people who do not know how to write web pages can add information to a website
+and it is also possible to change the presentation of something in the template, and it will automatically update every page
+that uses that template.
+
++ Some content management systems offer tools that also allow you to edit the template files.
+
+Text editors usually have controls a little like those on your word processor, giving you different options to style text, add links or insert images.
+
+### Looking at How Other sites are Built
+just go to the page you want and then right click then click on view source and you'll see the source code
+its way to learn about HTML and discover new tips and techniques was to look at the source code
 
 each web page should begin with a DOCTYPE declaration to tell a browser which version of HTML the page is using
 <!DOCTYPE html>
