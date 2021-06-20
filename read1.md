@@ -14,12 +14,12 @@ the web server, your browser will first connect to a Domain Name System (DNS) se
 
 
 
-##HTML 
+## HTML 
 + stands for HyperText Markup Language The HyperText part refers to the fact that HTML allows you to create links that allow visitors to move from one page to another
 + describes the structure of a web page
 The use of headings and subheadings in any document often reflects a hierarchy of information.
 The HTML code (in blue) is made up of characters that live inside angled
-###**HTML elements**
+### **HTML elements**
 The HTML code (in blue) is made up of characters that live inside angled brackets
 Each HTML element tells the browser something about the information that sits between its opening and closing tags.
 made up of two tags: an opening tag and a closing tag.
